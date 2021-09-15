@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+## Aplicação de CNNs em imagens de "Pedra, Papel e Tesoura"
 
-You can use the [editor on GitHub](https://github.com/gustavor10silva/CNN-Pedra-Papel-Tesoura/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Este projeto consiste em uma aplicação de Redes Neurais Convolucionais (CNNs) em imagens de mãos representando pedra, papel e tesoura. A aplicação divide-se em três partes principais:
+
+* Parte 1: treinamento de uma CNN **sem** o processo de _Data Augmentation_ (Aumento de Dados) com o dataset [rock_paper_scissors](https://www.tensorflow.org/datasets/catalog/rock_paper_scissors), do catálogo de datasets do TensorFlow;
+* Parte 2: treinamento de uma CNN **com** o processo de Data Augmentation usando o dataset rock_paper_scissors;
+* Parte 3: testes com a melhor CNN treinada para classificar fotos de mãos fazendo os três gestos (pedra, papel e tesoura).
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
