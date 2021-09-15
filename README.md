@@ -38,6 +38,9 @@ Syntax highlighted code block
 ## Links úteis
 
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+
 [repository settings](https://github.com/gustavor10silva/CNN-Pedra-Papel-Tesoura/settings/pages)
+
 [documentation](https://docs.github.com/categories/github-pages-basics/)
+
 [contact support](https://support.github.com/contact)
