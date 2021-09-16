@@ -30,6 +30,14 @@ O processo de data augmentation (aumento de dados) consiste em gerar novos dados
 
 Existem várias outras possíveis transformações. O módulo ImageDataGenerator, da biblioteca keras_preprocessing.image, é uma ótima alternativa para fazer o aumento de dados em tempo real e foi o escolhido para fazer isso neste projeto. A documentação encontra-se [aqui](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator), bem como a lista com todas as tranformações possíveis.
 
+Para exemplificar, tomemos a seguinte imagem do dataset:
+
+![mao_antes_data_augmentation](imgs/mao_antes_data_augmentation.png "Imagem antes do processo de data augmentation")
+
+Aplicando o processo de data augmentation e configurando vários parâmetros de transformação, essas são algumas imagens obtidas:
+
+![maos_data_augmentation](imgs/maos_data_augmentation.png "Resultados do processo de data augmentation")
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
