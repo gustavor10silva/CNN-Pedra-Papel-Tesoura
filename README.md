@@ -24,10 +24,12 @@ Este projeto consiste em uma aplicação de Redes Neurais Convolucionais (CNNs) 
 </div>
 <style>
 div.box {
-	width: 300px;
+	width: 200px;
 	display: inline-block;
 }
 </style>
+
+![alt-text-1](imgs/mao1.png "title-1") ![alt-text-2](mao1.png "title-2") ![alt-text-2](mao3.png "title-2")
 
 ## Trabalhando sem data augmentation
 
