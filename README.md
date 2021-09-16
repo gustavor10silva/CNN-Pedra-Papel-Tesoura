@@ -29,7 +29,13 @@ div.box {
 }
 </style>
 
-![alt-text-1](imgs/mao1.png "title-1") ![alt-text-2](mao1.png "title-2") ![alt-text-2](mao3.png "title-2")
+![alt-text-1](imgs/mao1.png "title-1") ![alt-text-2](imgs/mao2.png "title-2") ![alt-text-2](imgs/mao3.png "title-2")
+
+<p float="left">
+  <img src="imgs/img1.png" width="100" />
+  <img src="imgs/img2.png" width="100" /> 
+  <img src="imgs/img3.png" width="100" />
+</p>
 
 ## Trabalhando sem data augmentation
 
