@@ -10,7 +10,25 @@ Este projeto consiste em uma aplicação de Redes Neurais Convolucionais (CNNs) 
 
 ## Explorando o dataset
 
-<img src="imgs/mao1.png" alt="Mão fazendo o gesto de pedra">
+<div class="box">
+    <img src="imgs/mao1.png" alt="Mão fazendo o gesto de pedra">
+    <span> Mão fazendo o gesto de pedra </span>
+</div>
+<div class="box">
+    <img src="imgs/mao2.png" alt="Mão fazendo o gesto de papel">
+    <span> Mão fazendo o gesto de papel </span>
+</div>
+<div class="box">
+    <img src="imgs/mao3.png" alt="Mão fazendo o gesto de tesoura">
+    <span> Mão fazendo o gesto de tesoura </span>
+</div>
+
+<style>
+div.box {
+	width: 150px;
+	display: inline-block;
+}
+</style>
 
 ## Trabalhando sem data augmentation
 
