@@ -10,6 +10,8 @@ Este projeto consiste em uma aplicação de Redes Neurais Convolucionais (CNNs) 
 
 ## Explorando o dataset
 
+<img src="imgs/mao1.png" alt="Mão fazendo o gesto de pedra">
+
 ## Trabalhando sem data augmentation
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
