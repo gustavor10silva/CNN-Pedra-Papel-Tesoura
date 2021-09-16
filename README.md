@@ -22,10 +22,9 @@ Este projeto consiste em uma aplicação de Redes Neurais Convolucionais (CNNs) 
     <img src="imgs/mao3.png" alt="Mão fazendo o gesto de tesoura">
     <span> Mão fazendo o gesto de tesoura </span>
 </div>
-
 <style>
 div.box {
-	width: 150px;
+	width: 300px;
 	display: inline-block;
 }
 </style>
