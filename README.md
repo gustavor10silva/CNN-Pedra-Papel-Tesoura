@@ -18,7 +18,17 @@ Neste projeto, essas imagens de teste serão usadas como dados de validação. O
 
 Com isso, levando em conta que todos os dados serão usados na etapa de treinamento dos modelos, precisaremos de imagens novas para fazer os testes. Essas imagens serão fotos reais de mãos, que eu e meus familiares providenciamos.
 
-## Trabalhando sem data augmentation
+## Processo de data augmentation
+
+O processo de data augmentation (aumento de dados) consiste em gerar novos dados a partir dos dados já existentes. Quando trabalhamos com imagens, esses dados novos serão novas imagens, obtidas através de tranformações nas imagens originais. São alguns exemplos dessas transformações:
+
+* Rotação
+* Mudança na largura
+* Mudança na altura
+* Cisalhamento
+* Zoom
+
+Existem várias outras possíveis transformações. O módulo ImageDataGenerator, da biblioteca keras_preprocessing.image, é uma ótima alternativa para fazer o aumento de dados em tempo real e foi o escolhido para fazer isso neste projeto. A documentação encontra-se [aqui](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator), bem como a lista com todas as tranformações possíveis.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -39,7 +49,9 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-## Trabalhando com data augmentation
+## Processo de data augmentation
+
+O processo de data augmentation (aumento de dados) consiste em usar os dados já existentes para gerar mais dados. Quando trabalhamos com imagens, isso é feito a partir de transformações nas imagens existentes, gerando novas imagens.
 
 ## 
 
