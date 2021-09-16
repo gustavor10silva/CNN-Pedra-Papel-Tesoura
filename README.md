@@ -10,6 +10,14 @@ Este projeto consiste em uma aplicação de Redes Neurais Convolucionais (CNNs) 
 
 ## Explorando o dataset
 
+O dataset rock_paper_scissors possui, ao todo, 2892 imagens. Dentre essas, 2520 são de treinamento e 372 são de teste, conforme a divisão nativa do dataset. Seguem alguns exemplos dessas imagens:
+
+![mao1](imgs/mao1.png "Mão fazendo o gesto de pedra") ![mao2](imgs/mao2.png "Mão fazendo o gesto de papel") ![mao3](imgs/mao3.png "Mão fazendo o gesto de tesoura")
+
+Neste projeto, essas imagens de teste serão usadas como dados de validação - ou seja, em cada época da etapa de treinamento, o otimizador usado calculará a função de perda (comumente chamada de "loss") usando esses dados de validação e usará isso para atualizar os pesos da rede por meio do processo de "backpropagation" (retropropagação).
+
+Com isso, levando em conta que todos os dados serão usados na etapa de treinamento dos modelos, precisaremos de imagens novas para fazer os testes. Essas imagens serão fotos reais de mãos, que eu e meus familiares providenciamos.
+
 <div class="box">
     <img src="imgs/mao1.png" alt="Mão fazendo o gesto de pedra">
     <span> Mão fazendo o gesto de pedra </span>
