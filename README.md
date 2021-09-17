@@ -18,7 +18,7 @@ Neste projeto, essas imagens de teste serão usadas como dados de validação. O
 
 Com isso, levando em conta que todos os dados serão usados na etapa de treinamento dos modelos, precisaremos de imagens novas para fazer os testes. Essas imagens serão fotos reais de mãos, que eu e meus familiares providenciamos, tais como as que seguem:
 
-![mao_paper](imgs/paper23.jpeg) ![mao_scissors](imgs/scissors12.jpeg) ![mao_rock](imgs/rock32.jpeg)
+![mao_paper](imgs/paper23.jpeg "Mão fazendo o gesto de papel") ![mao_scissors](imgs/scissors12.jpeg "Mão fazendo o gesto de tesoura") ![mao_rock](imgs/rock32.jpeg "Mão fazendo o gesto de pedra")
 
 ## Processo de data augmentation
 
