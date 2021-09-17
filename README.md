@@ -14,11 +14,11 @@ O dataset rock_paper_scissors possui, ao todo, 2892 imagens, sendo 964 de cada u
 
 ![mao1](imgs/mao1.png "Mão fazendo o gesto de pedra") ![mao2](imgs/mao2.png "Mão fazendo o gesto de papel") ![mao3](imgs/mao3.png "Mão fazendo o gesto de tesoura")
 
-Neste projeto, essas imagens de teste serão usadas como dados de validação. Ou seja, em cada época da etapa de treinamento, o otimizador usado calculará a função de perda (comumente chamada de "loss") usando esses dados de validação e usará isso para atualizar os pesos das CNNs por meio do processo de "backpropagation" (retropropagação).
+Neste projeto, essas imagens de teste serão usadas como dados de validação. Ou seja, em cada época da etapa de treinamento, o otimizador usado calculará a função de perda (comumente chamada de "loss") usando esses dados de validação e usará isso para atualizar os pesos das CNNs por meio do processo de _backpropagation_ (retropropagação).
 
 Com isso, levando em conta que todos os dados serão usados na etapa de treinamento dos modelos, precisaremos de imagens novas para fazer os testes. Essas imagens serão fotos reais de mãos, que eu e meus familiares providenciamos, tais como as que seguem:
 
-
+![mao_paper](imgs/paper23.jpeg) ![mao_scissors](imgs/scissors12.jpeg) ![mao_rock](imgs/rock32.jpeg)
 
 ## Processo de data augmentation
 
