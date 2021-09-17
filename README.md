@@ -2,8 +2,6 @@
 
 ## Introdução
 
-$\textbf{Qual é a quantidade ideal de clusters?}$
-
 Este projeto consiste em uma aplicação de Redes Neurais Convolucionais (CNNs) em imagens de mãos representando pedra, papel e tesoura. A aplicação divide-se em três partes principais:
 
 * **Parte 1:** treinamento de uma CNN **sem** o processo de _data augmentation_ (aumento de dados) com o dataset [rock_paper_scissors](https://www.tensorflow.org/datasets/catalog/rock_paper_scissors), do catálogo de datasets do TensorFlow;
