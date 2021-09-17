@@ -38,7 +38,9 @@ Aplicando o processo de data augmentation e configurando vários parâmetros de 
 
 ![maos_data_augmentation](imgs/maos_data_augmentation.png "Resultados do processo de data augmentation")
 
-Note que tínhamos, inicialmente, uma imagem e obtemos 6 novas imagens com o aumento de dados. Nas CNNs treinadas nesse projeto, esse processo é feito _durante_ a etapa de treinamento. A vantagem de fazermos isso é que, usando o módulo ImageDataGenerator, é muito simples fazer o aumento de dados durante a etapa de treinamento do modelo; por outro lado, a desvantagem é que isso deixa o treinamento mais lento, de forma que - em determinadas situações - torna-se mais viável realizar o aumento de dados _antes_ do treinamento, de forma separada.
+Note que tínhamos, inicialmente, uma imagem e obtemos 6 novas imagens com o aumento de dados. Nas CNNs treinadas neste projeto, esse processo é feito _durante_ a etapa de treinamento. 
+
+A vantagem de fazermos isso é que, usando o módulo ```markdown ImageDataGenerator```, é muito simples fazer o aumento de dados durante a etapa de treinamento do modelo; por outro lado, a desvantagem é que isso deixa o treinamento mais lento, de forma que - em determinadas situações - torna-se mais viável realizar o aumento de dados _antes_ do treinamento, de forma separada.
 
 ## Treinamento do modelo _sem_ data augmentation
 
