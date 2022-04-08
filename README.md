@@ -49,9 +49,9 @@ A vantagem de fazermos isso é que, usando o módulo ```ImageDataGenerator```, �
 O processo de data augmentation (aumento de dados) consiste em usar os dados já existentes para gerar mais dados. Quando trabalhamos com imagens, isso é feito a partir de transformações nas imagens existentes, gerando novas imagens.
 
 
-<> ## Treinamento do modelo _sem_ data augmentation
+% ## Treinamento do modelo _sem_ data augmentation
 
-<> Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+% Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 [comment]: <> ```markdown
 [comment]: <>Syntax highlighted code block
