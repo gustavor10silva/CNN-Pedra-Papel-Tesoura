@@ -49,38 +49,42 @@ A vantagem de fazermos isso é que, usando o módulo ```ImageDataGenerator```, �
 O processo de data augmentation (aumento de dados) consiste em usar os dados já existentes para gerar mais dados. Quando trabalhamos com imagens, isso é feito a partir de transformações nas imagens existentes, gerando novas imagens.
 
 
-% ## Treinamento do modelo _sem_ data augmentation
+<!-- This is commented out:
 
-% Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Treinamento do modelo _sem_ data augmentation
 
-[comment]: <> ```markdown
-[comment]: <>Syntax highlighted code block
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-[comment]: <># Header 1
-[comment]: <>## Header 2
-[comment]: <>### Header 3
+```markdown
+Syntax highlighted code block
 
-[comment]: <>- Bulleted
-[comment]: <>- List
-[comment]: <>
-[comment]: <>1. Numbered
-[comment]: <>2. List
-[comment]: <>
-[comment]: <>**Bold** and _Italic_ and `Code` text.
-[comment]: <>
-[comment]: <>[Link](url) and ![Image](src)
-[comment]: <>```
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text.
+
+[Link](url) and ![Image](src)
+```
 
 
-[comment]: <>## 
+## 
 
-[comment]: <>## Links úteis
+## Links úteis
 
-[comment]: <>[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 
-[comment]: <>[repository settings](https://github.com/gustavor10silva/CNN-Pedra-Papel-Tesoura/settings/pages)
+[repository settings](https://github.com/gustavor10silva/CNN-Pedra-Papel-Tesoura/settings/pages)
 
-[comment]: <>[documentation](https://docs.github.com/categories/github-pages-basics/)
+[documentation](https://docs.github.com/categories/github-pages-basics/)
 
-[comment]: <>[contact support](https://support.github.com/contact)
-[comment]: <>''''
+[contact support](https://support.github.com/contact)
+''''
+
+-->
