@@ -44,39 +44,43 @@ Note que tínhamos, inicialmente, uma imagem e obtemos 6 novas imagens com o aum
 
 A vantagem de fazermos isso é que, usando o módulo ```ImageDataGenerator```, é muito simples fazer o aumento de dados durante a etapa de treinamento do modelo; por outro lado, a desvantagem é que isso deixa o treinamento mais lento, de forma que - em determinadas situações - torna-se mais viável realizar o aumento de dados _antes_ do treinamento, de forma separada.
 
-## Treinamento do modelo _sem_ data augmentation
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text.
-
-[Link](url) and ![Image](src)
-```
 ## Processo de data augmentation
 
 O processo de data augmentation (aumento de dados) consiste em usar os dados já existentes para gerar mais dados. Quando trabalhamos com imagens, isso é feito a partir de transformações nas imagens existentes, gerando novas imagens.
 
-## 
 
-## Links úteis
+[comment]: <> ## Treinamento do modelo _sem_ data augmentation
 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+[comment]: <> Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-[repository settings](https://github.com/gustavor10silva/CNN-Pedra-Papel-Tesoura/settings/pages)
+[comment]: <> ```markdown
+[comment]: <>Syntax highlighted code block
 
-[documentation](https://docs.github.com/categories/github-pages-basics/)
+[comment]: <># Header 1
+[comment]: <>## Header 2
+[comment]: <>### Header 3
 
-[contact support](https://support.github.com/contact)
+[comment]: <>- Bulleted
+[comment]: <>- List
+[comment]: <>
+[comment]: <>1. Numbered
+[comment]: <>2. List
+[comment]: <>
+[comment]: <>**Bold** and _Italic_ and `Code` text.
+[comment]: <>
+[comment]: <>[Link](url) and ![Image](src)
+[comment]: <>```
+
+
+[comment]: <>## 
+
+[comment]: <>## Links úteis
+
+[comment]: <>[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+
+[comment]: <>[repository settings](https://github.com/gustavor10silva/CNN-Pedra-Papel-Tesoura/settings/pages)
+
+[comment]: <>[documentation](https://docs.github.com/categories/github-pages-basics/)
+
+[comment]: <>[contact support](https://support.github.com/contact)
+[comment]: <>''''
